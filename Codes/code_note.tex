@@ -1,6 +1,6 @@
-\documentclass[8pt,twocolumn, landscape, a4paper]{report}
+\documentclass[8pt , a4paper]{report}
 %\usepackage[a4paper, total={11in, 7in}]{geometry}
-\usepackage[a4paper, landscape, margin=0.45in]{geometry}
+\usepackage[a4paper, margin=0.45in]{geometry}
 
 \usepackage{listings}
 \usepackage{xcolor}
@@ -17,11 +17,8 @@
     basicstyle=\ttfamily,
 }
 \begin{document}
-\begin{titlepage}
-\title{The Azinaa Code Notebook}
+\title{The FarshadBazi Code Notebook}
 \maketitle
-\end{titlepage}
-\newpage
   \tableofcontents
 \newpage
 \section{Graph}
@@ -92,12 +89,21 @@
 
 \section{Other}
 
-\subsection{Disjoint Set}
-\lstinputlisting{Disjoint_Set.cpp}
-
 \subsection{Date Transformation}
 \lstinputlisting{Dates.cpp}
-\subsection{make CIN and COUT Run Faseter}
-\lstinputlisting{ios.cpp}
+
+
+\section{Specific}
+\subsection{Max Flow: }
+\lstinputlisting{"Specific/flow.cc"}
+\pagebreak
+\subsection{MCST: Kruskal}
+\lstinputlisting{"Specific/kruskal.cc"}
+\pagebreak
+\subsection{Articulation Point}
+\lstinputlisting{"Specific/art_point.cc"}
+
+
+
 
 \end{document}
